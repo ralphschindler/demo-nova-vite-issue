@@ -14,9 +14,9 @@ const Framework = {
         const app = createApp(App)
         app.component('reusable-thing', ReusableThing)
 
-        console.log(bootingCallbacks.length)
+        console.log('Booting ' + bootingCallbacks.length + ' callbacks')
         bootingCallbacks.forEach(callback => {
-            console.log('going through boot')
+            console.log('booting callback ', callback)
             callback(app, {})
         })
 
