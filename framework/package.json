@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "mix watch"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.45",
+    "laravel-mix": "^6.0.41",
+    "vue": "^3.2.45",
+    "vue-loader": "^16.8.3"
+  }
+}
