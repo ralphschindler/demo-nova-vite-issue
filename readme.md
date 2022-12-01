@@ -6,7 +6,9 @@ npm run dev
 ```
 
 open `index.html` in chrome, with dev tools. upon clicking button will
-get issue with resolveComponent()
+get the issue with resolveComponent()
+
+![Error Screenshot](./error-screenshot.png)
 
 ### Notes
 
